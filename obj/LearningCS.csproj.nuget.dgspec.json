@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tanne\\Desktop\\LearningCS\\LearningCS.csproj": {}
+    "C:\\Users\\tanne\\Desktop\\learningCsharp\\LearningCS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tanne\\Desktop\\LearningCS\\LearningCS.csproj": {
+    "C:\\Users\\tanne\\Desktop\\learningCsharp\\LearningCS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tanne\\Desktop\\LearningCS\\LearningCS.csproj",
+        "projectUniqueName": "C:\\Users\\tanne\\Desktop\\learningCsharp\\LearningCS.csproj",
         "projectName": "LearningCS",
-        "projectPath": "C:\\Users\\tanne\\Desktop\\LearningCS\\LearningCS.csproj",
+        "projectPath": "C:\\Users\\tanne\\Desktop\\learningCsharp\\LearningCS.csproj",
         "packagesPath": "C:\\Users\\tanne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tanne\\Desktop\\LearningCS\\obj\\",
+        "outputPath": "C:\\Users\\tanne\\Desktop\\learningCsharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tanne\\AppData\\Roaming\\NuGet\\NuGet.Config"
