@@ -1,23 +1,21 @@
-﻿public class Program
-{
+﻿
 
-    public static void Main()
-    {
-
-        string? metalType = Console.ReadLine();
-
-        switch (metalType)
-        {
-            case "iron":
-                Console.WriteLine("Good against monsters");
-                break;
-
-            case "gold":
-                Console.WriteLine("Good for luring the other kind of monster");
-                break;
-
-        }
-
+public class Program {
+    
+    public static void Main() {
+        
+        double faren = 95;
+        double cel;
+        
+        ConvertTemperature(in faren, out cel);
+        
+        Console.WriteLine(cel);
+        
     }
-
+    
+    static void ConvertTemperature(in double farenheight, out double celsius) {
+        
+        celsius = (farenheight - 32) / 1.8;
+    }
+    
 }
