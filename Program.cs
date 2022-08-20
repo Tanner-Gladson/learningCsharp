@@ -1,15 +1,19 @@
-﻿public static class Printer {
-    
-    public static void Print(string line) {
-        Console.WriteLine(line);
-    }
+﻿using System.Collections.Generic;
+
+public class Person {
     
 }
 
-public class Program {
-    
+
+public class Program 
+{
     public static void Main() {
         
-        Printer.Print("yeet");
-    }
+        var mySet = new List<int>(){5,6,4};
+        
+        mySet.Append(5);
+        
+        
+        
+        }
 }
