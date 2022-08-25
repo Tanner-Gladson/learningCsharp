@@ -7,13 +7,20 @@ public class Person {
 
 public class Program 
 {
+    
+    
     public static void Main() {
         
-        var mySet = new List<int>(){5,6,4};
+        var myList = new List<string>{"hi", "hello", "goodbye"};
         
-        mySet.Append(5);
+        IEnumerable<string> hello = from word in myList 
+                                    where word.Length > 2 
+                                    where word[0] == 'g' 
+                                    select word;
         
-        
+        foreach (string word in hello) {
+            Console.WriteLine(word);
+        } 
         
         }
 }
